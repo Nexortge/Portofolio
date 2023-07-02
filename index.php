@@ -77,7 +77,7 @@
             <p>
                 (dit ben ik *insert down arrow*)
             </p>
-            <img id="ikdiesmoke" src="ikdiesmoke.png" alt="">
+            <img id="ikdiesmoke" src="footerfoto.png" alt="">
         </div>
     </footer>
 
