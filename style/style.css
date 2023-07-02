@@ -1,0 +1,187 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#cv-moving-background {
+    background-image: url("../CV/img/Img1.png"), url("../CV/img/img2.png"), url("../CV/img/img3.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: moving 1000s linear infinite;
+    z-index: -10;
+    background-size: 300px 300px, 300px 300px, 300px 300px;
+
+}
+
+#cv-moving-background-text {
+    text-align: center;
+    content: "Your text goes here";
+    /* add your text here */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: red;
+}
+
+@keyframes moving {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+        background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
+    }
+}
+
+#ikdiesmoke {
+    width: 50vmin;
+    height: 100%;
+}
+
+#title {
+    text-align: center;
+    padding: 5vmin;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    font-size: 2vmin;
+    float: right;
+    height: 40vmin;
+    width: 80%;
+
+}
+
+#foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+#compotenties-text {
+    color: red;
+    animation: compotenties 1s linear infinite;
+}
+
+@keyframes compotenties {
+    49.99% {
+        color: red;
+        font-weight: bold;
+    }
+
+    50% {
+        color: black;
+        font-weight: normal;
+    }
+
+    99.99% {
+        color: black;
+        font-weight: normal;
+    }
+}
+
+#comp-foto {
+    width: 100%;
+    height: 100%;
+    background-image: url("../CV/img/compotenties.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#vrije-tijd a {
+    font-size: 4vmin;
+    text-decoration: none;
+    font-weight: bold;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+#broodje-img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+}
+
+p,
+h1,
+h2 {
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+#fret-foto-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+#fret-foto {
+    width: 100%;
+    height: 100%;
+    background-image: url("../CV/img/compotenties.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#dankuwel-text{
+    text-align: center;
+
+}
+
+#body-center-dankuwel{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#body-center-dankuwel div p {
+    text-align: center;
+}
+
+#subscribe-button-img{
+    display: block;
+    margin: auto;
+}
